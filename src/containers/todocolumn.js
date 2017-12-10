@@ -29,6 +29,7 @@ const mapDispatchToProps = (dispatch, ownProps) => {
       let value = ownState.state.value
       dispatch(doAddClick(ownProps.index, value))
       ownState.refs.textarea.value = ''
+      ownState.setState({value: null})
     },
   }
 }
