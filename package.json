@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "react-scripts": "1.0.17"
   },
   "dependencies": {
@@ -12,9 +13,13 @@
     "react-redux": "^5.0.6",
     "redux": "^3.7.2"
   },
+  "homepage": "https://clemchansf.github.io/redux-board",
+  "deploy": "npm run build&&gh-pages -d build",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom"
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
