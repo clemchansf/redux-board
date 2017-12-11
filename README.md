@@ -6,7 +6,7 @@ This repo contains the use of Redux and composite reducers emulating all the sta
 [board](https://github.com/clemchansf/board). The react-redux binding npm_module comes with performance
 optimization, saving developers from thinking about how to optimizing the rendering process of plain ReactJS container components.
 
-- [Demo](https://clemchansf.github.io/board)
+- [Demo](https://clemchansf.github.io/redux-board)
 
 ## Installation
 
